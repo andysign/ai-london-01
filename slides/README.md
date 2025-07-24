@@ -13,7 +13,7 @@ OR Hands-On Private AI Workshop <!-- .element: class="fragment" -->
 ## <small>House Keeping &#127968; &#129529;</small>
 <!-- .slide: data-transition="fade" -->
 
-<small>&#128732; `TBD` (Encode Club)</small>
+<small>&#128732; Ask or use your own</small>
 ![](images/00-qr.svg)
 
 ---
@@ -215,7 +215,7 @@ curl -fsSL https://ollama.com/install.sh | sh
 ## <small></small>
 <!-- .slide: data-transition="fade" -->
 
-```txt [1:7-18|12|14|10|15|7]
+```txt [1:1|7-18|12|14|10|15|7]
 > ollama
 Usage:
   ollama [flags]
@@ -248,7 +248,7 @@ Use "ollama [command] --help" for more information about a command.
 ## <small>Pull Command (1 of 5)</small>
 <!-- .slide: data-transition="fade" -->
 
-`ollama pull ModelName` <!-- class="fragment r-fit-text" -->
+`ollama pull ModelName[:123b]` <!-- class="fragment r-fit-text" -->
 
 ---
 
@@ -357,7 +357,7 @@ phi4-mini-reasoning:3.8b              3ca8c2865ce9    3.2 GB    6 weeks ago
 ## <small>Run Command (3 of 5)</small>
 <!-- .slide: data-transition="fade" -->
 
-```shell [18|19]
+```shell [1|18|19]
 ollama run --help
 Run a model
 
@@ -465,6 +465,92 @@ Environment Variables:
 <!-- .slide: data-transition="fade" data-background="#d5d772" -->
 
 **[https://chatboxai.app](https://chatboxai.app)** <!-- .element: class="fragment r-fit-text" -->
+
+---
+---
+
+![](images/10-gui.png)
+
+---
+
+![](images/11-gui-settings.png)
+
+---
+
+![](images/12-gui-add.png)
+
+---
+
+![](images/13-gui-models.png)
+
+---
+
+![](images/14-gui-search-api.png)
+
+---
+
+![](images/15-gui-kno.png)
+
+---
+
+![](images/16-gui-auto-up.png)
+
+---
+
+![](images/17-gui-last.png)
+
+---
+---
+
+## <small>Prompt Engineering</small>
+<!-- .slide: data-transition="fade" data-background="" -->
+
+**[https://github.com/f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts)**
+
+---
+---
+
+## <small>Ollama serve w/ ALL CORS</small>
+<!-- .slide: data-transition="fade" -->
+
+[https://objectgraph.com/blog/ollama-cors](https://objectgraph.com/blog/ollama-cors)
+
+[https://medium.com/@anand34577/66f7492b5cc8](https://medium.com/@anand34577/66f7492b5cc8)
+
+---
+---
+
+## <small>Nice books?</small>
+<!-- .slide: data-transition="fade" -->
+
+![](images/20-book.jpg)
+
+---
+
+## <small>Your private conv with AI leaked?</small>
+<!-- .slide: data-transition="fade" -->
+
+![](images/20-facebook-leak.png)
+
+---
+
+![](images/30-infographics.png)
+
+---
+
+![](images/31-infographics2.png)
+
+---
+
+![](images/32-infographics3.png)
+
+---
+---
+
+## <small>Topics for next time?</small>
+<!-- .slide: data-transition="fade" -->
+
+OpenWebUi / Coding with Continue / Roo Code / Smolagents ? <!-- .element: class="fragment r-fit-text" -->
 
 ---
 ---
